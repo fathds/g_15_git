@@ -1,0 +1,17 @@
+.body{
+    align-items:center;   
+}
+header{
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    background-color: brown;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+fieldset{
+    display:flex;
+    flex-direction:column;
+    align-items:center;  
+}

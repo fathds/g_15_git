@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  vh es una medida relativa -> vw */
+    height: 100vh;
+}
+.padre{
+    width: 900px;
+    height: 900px;
+    border: 2px solid;
+    display: flex;
+    /* flex-direction cambia la posición de la fila */
+    flex-direction:column;
+    /* acomodar los elementos en mi eje x o horizontal*/
+    align-items: center;
+    justify-content: center;
+
+}
+.madre{
+    width: 900px;
+    height: 900px;
+    border: 2px solid;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.hijo{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.hija{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.hijo1{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.nieto{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    display:flex;
+    flex-direction:row;
+
+}
+.nieta{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.nieto2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+.hijo2{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.hijo3{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.hijo4{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}

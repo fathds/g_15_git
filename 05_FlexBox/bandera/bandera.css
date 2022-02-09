@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vh es una medida relativa -> vw siempre va a ser
+    el 100% de la pantalla */
+    height:100vh;
+}
+.container{
+    width: 600px;
+    height: 600px;
+}
+.derecha{
+    border: 2px solid;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blanco_derecha_arriba{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
